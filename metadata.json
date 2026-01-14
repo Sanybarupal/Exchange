@@ -1,0 +1,7 @@
+{
+  "name": "BinEx - Premium Crypto Exchange",
+  "description": "A high-performance cryptocurrency trading platform with real-time market data, advanced charting, secure wallets, and AI-powered market analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
