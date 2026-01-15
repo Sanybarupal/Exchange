@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MOCK_COINS } from '../constants';
+import { MOCK_COINS } from '../constants.tsx';
 
 const Home: React.FC = () => {
   return (

@@ -1,19 +1,19 @@
 
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Markets from './pages/Markets';
-import Trade from './pages/Trade';
-import Wallet from './pages/Wallet';
-import KYC from './pages/KYC';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Dashboard from './pages/Dashboard';
-import Support from './pages/Support';
-import About from './pages/About';
-import TermsPrivacy from './pages/TermsPrivacy';
+import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
+import Home from './pages/Home.tsx';
+import Markets from './pages/Markets.tsx';
+import Trade from './pages/Trade.tsx';
+import Wallet from './pages/Wallet.tsx';
+import KYC from './pages/KYC.tsx';
+import Login from './pages/Login.tsx';
+import Register from './pages/Register.tsx';
+import Dashboard from './pages/Dashboard.tsx';
+import Support from './pages/Support.tsx';
+import About from './pages/About.tsx';
+import TermsPrivacy from './pages/TermsPrivacy.tsx';
 
 const ComingSoon: React.FC<{ title: string }> = ({ title }) => (
   <div className="min-h-[70vh] flex flex-col items-center justify-center p-8 text-center">

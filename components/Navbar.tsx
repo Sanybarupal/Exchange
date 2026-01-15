@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ICONS } from '../constants';
+import { ICONS } from '../constants.tsx';
 
 const Navbar: React.FC = () => {
   const location = useLocation();

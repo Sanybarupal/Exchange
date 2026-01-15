@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { MOCK_TRADE_HISTORY, MOCK_COINS } from '../constants';
-import { getMarketAnalysis } from '../services/geminiService';
+import { MOCK_TRADE_HISTORY, MOCK_COINS } from '../constants.tsx';
+import { getMarketAnalysis } from '../services/geminiService.ts';
 
 const Trade: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'BUY' | 'SELL'>('BUY');
@@ -172,7 +172,7 @@ const Trade: React.FC = () => {
               </button>
             </div>
           </div>
-          {/* Recent Trades on smaller screens or hidden if lg */}
+          {/* Recent Trades */}
           <div className="w-full lg:w-64 flex flex-col border-l border-[#2b3139] pl-4 hidden md:flex">
              <div className="text-xs font-bold mb-3">Market Trades</div>
              <div className="flex-1 overflow-y-auto text-[10px]">

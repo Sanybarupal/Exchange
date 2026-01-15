@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ICONS, MOCK_WALLET } from '../constants';
+import { ICONS, MOCK_WALLET } from '../constants.tsx';
 
 const Dashboard: React.FC = () => {
   const totalValue = MOCK_WALLET.reduce((acc, curr) => acc + curr.valueUsd, 0);
