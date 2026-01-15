@@ -63,7 +63,7 @@ const Home: React.FC = () => {
               <button className="text-sm font-bold text-white border-b-2 border-[#f0b90b] pb-2">Popular</button>
               <button className="text-sm font-bold text-[#848e9c] pb-2">New Listing</button>
               <div className="flex-1"></div>
-              <Link to="/markets" className="text-[10px] text-[#848e9c] hover:text-[#f0b90b]">View All 350+ Coins ></Link>
+              <Link to="/markets" className="text-[10px] text-[#848e9c] hover:text-[#f0b90b]">View All 350+ Coins &gt;</Link>
             </div>
             <div className="space-y-4">
               {MOCK_COINS.slice(0, 5).map(coin => (
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
           <div className="bg-[#1e2329] rounded-2xl border border-[#2b3139] p-6 shadow-xl">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-sm font-bold text-white">News</h3>
-              <Link to="/blog" className="text-[10px] text-[#848e9c] hover:text-[#f0b90b]">View All News ></Link>
+              <Link to="/blog" className="text-[10px] text-[#848e9c] hover:text-[#f0b90b]">View All News &gt;</Link>
             </div>
             <div className="space-y-4">
               {[
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                <div>
                   <div className="text-xs text-[#848e9c] mb-1">Scan to Download App</div>
                   <div className="text-xl font-bold text-white mb-2 italic">iOS and Android</div>
-                  <Link to="/download" className="text-xs text-[#f0b90b] hover:underline">View More Download Options ></Link>
+                  <Link to="/download" className="text-xs text-[#f0b90b] hover:underline">View More Download Options &gt;</Link>
                </div>
             </div>
             
